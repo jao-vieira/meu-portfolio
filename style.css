@@ -101,7 +101,7 @@ body {
 }
 
 .button-style:hover{
-    background-color: #a049a4;;
+    background-color: #a049a4;
     cursor: pointer;
     transform: scale(1.05);
 }
