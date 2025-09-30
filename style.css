@@ -133,3 +133,72 @@ footer {
 .social-icon:hover {
     transform: scale(1.2); 
 }
+
+@media (max-width: 768px){
+    
+    h1 {
+        text-align: center; 
+        font-size: 30px;
+        padding-right: 0;
+        padding-top: 2rem;
+    }
+
+    .devfs {
+        text-align: center;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    body{
+        background-repeat: repeat;
+    }
+
+    .portfolio-container{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        padding-top: 3rem;
+        gap: 20px; 
+        height: auto; 
+    }
+
+    .informacao {
+        align-items: center; 
+        max-width: 100%; 
+    }
+    
+    .tecnologias {
+        justify-content: center; 
+        margin-top: 10px;
+    }
+
+    .descricao {
+        max-width: 90%; 
+        text-align: center;
+        font-size: 16px; 
+        margin-top: 10px;
+    }
+
+    .minha-foto {
+        width: 90%; 
+        height: auto;
+        margin-right: 0;
+        margin-top: 20px;
+        margin-top: 1.5rem;
+    }
+    
+    .button-style, .button-style-projetos {
+        margin-top: 10px;
+    }
+
+    footer {
+        justify-content: center; 
+        padding-left: 0; 
+        margin-top: 20px;
+    }
+    
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
