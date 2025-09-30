@@ -30,7 +30,7 @@ body {
     background-size: cover;
 }
 
-.portifolio-container {
+.portfolio-container {
     display: flex;
     height: 80vh;
     flex-direction: row;
