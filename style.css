@@ -267,6 +267,12 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+    /* Main Section */
+    main {
+        padding: 40px 20px;
+        min-height: auto;
+    }
+
     .portfolio-container {
         flex-direction: column;
         text-align: center;
@@ -280,12 +286,20 @@ footer {
 
     .minha-foto {
         order: 1;
-        max-width: 300px;
+        max-width: 80%;
         margin-bottom: 20px;
+    }
+    
+    h1.nome-integrado {
+        font-size: 36px;
     }
     
     .devfs {
         font-size: 2rem;
+    }
+    
+    .portfolio-button {
+        margin: 5px;
     }
 
     .sobre-mim-simplificado-section, .contato-extended-section {
@@ -300,44 +314,140 @@ footer {
         flex: 1 1 calc(50% - 10px); 
         max-width: none;
     }
+    
+    .section-title {
+        font-size: 34px;
+    }
 }
 
-@media screen and (max-width: 600px) {
-    h1.nome-integrado {
-        font-size: 36px;
-    }
+@media screen and (max-width: 900px) {
     
     main {
-        padding: 40px 15px;
+        padding: 60px 20px;
     }
 
     .portfolio-container {
-        padding: 0;
+        flex-direction: column; 
+        text-align: center;
+        gap: 30px;
+    }
+    .informacao {
+        order: 2;
+        padding: 25px;
+        max-width: 90%;
+    }
+    h1.nome-integrado {
+        font-size: 38px;
+    }
+    .minha-foto {
+        order: 1;
+        max-width: 90%;
+        margin-bottom: 10px;
     }
     
     .devfs {
-        font-size: 1.8em;
+        font-size: 1.8rem;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .sobre-mim-simplificado-section, .contato-extended-section {
+        padding: 60px 20px;
+    }
+    
+    .perfil-content-cards {
+        flex-wrap: wrap; 
+        gap: 20px;
+    }
+    .perfil-card {
+        flex: 1 1 calc(50% - 10px); 
+        max-width: none;
+    }
+    
+    .section-title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    h1.nome-integrado {
+        font-size: 32px;
+    }
+
+    main {
+        padding: 40px 15px;
+    }
+    .informacao {
+        padding: 20px;
+    }
+    
+    .devfs {
+        font-size: 1.6em;
     }
     
     .descricao {
         font-size: 1rem;
     }
-    
     .portfolio-button {
-        padding: 10px 20px;
-        margin-right: 5px;
+        padding: 10px 15px;
         font-size: 0.9rem;
-        width: calc(33% - 10px); 
-        margin-bottom: 10px;
+        margin: 5px 0;
+        width: 100%; 
+        text-align: center;
     }
-    .portfolio-button:last-child {
-        margin-right: 0;
-    }
-
     .section-title {
         font-size: 30px;
+        margin-bottom: 30px;
     }
+    
+    .perfil-content-cards {
+        flex-direction: column; 
+        gap: 15px;
+    }
+    
     .perfil-card {
         flex: 1 1 100%; 
+        padding: 25px;
+    }
+    
+    /* CARD DE CONTATO */
+    .contato-card-final {
+        padding: 30px 15px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 25px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    h1.nome-integrado {
+        font-size: 28px;
+    }
+    
+    .devfs {
+        font-size: 1.4em;
+    }
+    
+    .portfolio-button {
+        padding: 10px 10px;
+        font-size: 0.85rem;
+    }
+    
+    .perfil-card {
+        padding: 20px 15px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    
+    .social-icon {
+        width: 30px;
+        height: 30px;
     }
 }
